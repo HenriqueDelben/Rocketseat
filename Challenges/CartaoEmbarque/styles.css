@@ -7,7 +7,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(180deg, #8257E5 0%, #271A45 100%);
+    background: linear-gradient(180deg, #8257E5 0%, #271A45 100%) no-repeat;
     font-family: 'Rubik', sans-serif;
     letter-spacing: -0.02em;
 }
@@ -53,6 +53,7 @@ h1 {
 #boarding-pass > p {
     text-align: center;
     margin-top: 20px;
+    padding: 0px 29px;
 
     color: #FFFFFF;
     font-weight: 400;
@@ -89,6 +90,9 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    color: #000000CC;
+}
+.test {
     color: #000000CC;
 }
 
@@ -129,4 +133,15 @@ h1 {
 #boarding-info > p {
     text-align: center;
     margin-top: 24px;
+    color: #000000E0;
+}
+
+.boarding-info__child__details__time .text{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    background: #633BBC;
+    border-radius: 8px;
+    padding: 4px 8px;
 }
