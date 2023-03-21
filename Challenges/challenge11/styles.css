@@ -1,0 +1,41 @@
+/*GLOBAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --text-color-gray: #475569;
+    --text-color-gray-strong: #1E293B;
+    --text-color-gray-light: #94A3B8;
+    --text-color-purple: #7C3AED;
+    --text-color-red: #ED3A5A;
+    --border-color-gray: #E2E8F0;
+    --border-color-purple: #7C3AED;
+    --border-color-red: #ED3A5A;
+}
+
+body {
+    font-size: 1.6rem;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/* MAIN > LOGIN */
+#login {
+    margin: 40px auto 209px auto;
+}
+
+/* MAIN > LOGIN > FORM-LOGIN */
+#form-login {
+    margin-top: 113px;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+
