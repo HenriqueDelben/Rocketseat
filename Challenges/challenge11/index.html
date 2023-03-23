@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,33 +17,50 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main id="main">
-        <div id="login">
-            <figure>
-                <img src="./assets/logo.svg" alt="Logo">
+    <main class="main">
+        <div class="main__login">
+            <figure class="main__logo">
+                <img src="assets/logo.svg" alt="Logo">
             </figure>
 
-            div
-            <h1>Acesse a Plataforma</h1>
-            <p>Faça login ou registre-se para começar a construir seus projetos ainda hoje.</p>
-            <div id="form-login">
-                <form action="#" class="form-login__form">
-                    <label for="email">E-mail</label>
-                    <input type="email" placeholder="Digite seu e-mail"  name="email" id="email" class="form-login__input">
+            <div class="form">
+                <div class="form__title">
+                    <h1>Acesse a plataforma</h1>
+                    <p>
+                        Faça login ou registre-se para começar a construir seus projetos ainda hoje.
+                    </p>
+                </div>
 
-                    <p><a href="#">Esqueceu a senha?</a></p>
-
-                    <label for="password">Senha</label>
-                    <div>
-                        <input type="password" placeholder="Digite sua senha" name="passoword" minlength="16" id="password" class="form-login__input">
+                <form action="#" class="form__form">
+                    <div class="form__element">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" class="form__input" placeholder="Digite seu e-mail">
                     </div>
+                    
+                    <div class="form__element">
+                        <div class="form__password-label-wrapper">
+                            <label for="password">Senha</label>
+                            <a href="#">Esqueceu a senha?</a>
+                        </div>
 
-                    <input type="submit" name="submit-button" value="Entrar">
+                        <div class="form__password-eye-wrapper">
+                            <input type="password" name="password" id="password" class="form__input" minlength="16" placeholder="Digite sua senha">
 
-                    <p>Ainda não tem uma conta? <a href="#">Inscreva-se</a></p>
+                            
+                            <img src="assets/eye-off.svg" alt="" class="eye form__hide-password">
+
+                            <img src="assets/eye-on.svg" alt="" class="eye form__show-password">
+                        </div>
+                        
+                    </div>
+                    
+                    <input type="submit" value="Entrar" class="form__button">
                 </form>
+
+                <p>Ainda não tem uma conta? <a href="#">Inscreva-se</a></p>
             </div>
         </div>
     </main>
+    <img class="bg" src="./assets/bg.jpg" alt="Background Image">
 </body>
 </html>
