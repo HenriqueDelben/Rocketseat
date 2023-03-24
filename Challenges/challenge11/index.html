@@ -46,10 +46,9 @@
                         <div class="form__password-eye-wrapper">
                             <input type="password" name="password" id="password" class="form__input" minlength="16" placeholder="Digite sua senha">
 
+                            <img src="assets/eye-off.svg" alt="hide password button" class="eye" onclick="togglePassword()">
                             
-                            <img src="assets/eye-off.svg" alt="" class="eye form__hide-password">
-
-                            <img src="assets/eye-on.svg" alt="" class="eye form__show-password">
+                            <img src="assets/eye-on.svg" alt="show password button" class="eye hide" onclick="togglePassword()">
                         </div>
                         
                     </div>
@@ -62,5 +61,17 @@
         </div>
     </main>
     <img class="bg" src="./assets/bg.jpg" alt="Background Image">
+
+    <script>
+       function togglePassword() {
+        document
+        .querySelectorAll(".eye")
+        .forEach( (eye) => {
+            eye.classList.toggle("hide")
+        })
+        const input = document.querySelector("#password")
+
+        input.getAttribute("type") == "password" ? input.setAttribute("type", "text") : input.setAttribute("type", "password")
+    </script>
 </body>
 </html>

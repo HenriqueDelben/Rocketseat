@@ -65,6 +65,9 @@ p > a {
 a:hover, a:active {
     text-decoration: underline;
 }
+.main {
+
+}
 
 /* CONTENT */
 .main__login {
@@ -77,6 +80,7 @@ a:hover, a:active {
 }
 
 .form__form {
+    width: 100%;
     margin-top: 4rem;
 }
 
@@ -100,14 +104,14 @@ a:hover, a:active {
 
 .eye {
     position: absolute;
-    top: 190px;
+    top: 16px;
     right: 0;
     width: 20px;
     height: 20px;
     margin-right: 12px;
 }
 
-.form__show-password {
+.hide {
     display: none;
 }
 
@@ -157,21 +161,20 @@ a:hover, a:active {
 /* MEDIA QUERIES */
 @media (min-width: 576px) {
     .main__login {
+        max-width: 700px;
         margin: 0 auto 0 auto;
-        max-width: 540px;
     }
 }
 
 @media (min-width: 1366px) {
-
     .main {
-        width: 720px;
+        max-width: 720px;
     }
 
     .main__login {
+        max-width: 540px;
         margin-left: 112px;
         margin-right: 208px;
-        
         padding: 0;
     }
 
