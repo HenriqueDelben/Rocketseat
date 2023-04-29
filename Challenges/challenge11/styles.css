@@ -123,14 +123,19 @@ a:hover, a:active {
     border: 1px solid var(--border-color-gray);
 }
 
-.form__input:hover {
+.form__input:hover, .form__input:focus {
     border: 1px solid var(--border-color-purple);
+    outline: none;
 }
 
 .form__input::placeholder {
     color: var(--text-color-gray-light);
 }
 
+.form__error-message {
+    color: #ED3A5A;
+    font-size: 1.4rem;
+}
 .form__button {
     display: block;
     width: 100%;

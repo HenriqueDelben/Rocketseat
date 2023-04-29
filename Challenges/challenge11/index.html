@@ -14,6 +14,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
 
+    <script src="index.js" async></script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -34,7 +36,8 @@
                 <form action="#" class="form__form">
                     <div class="form__element">
                         <label for="email">E-mail</label>
-                        <input type="email" name="email" id="email" class="form__input" placeholder="Digite seu e-mail">
+                        <input type="email" name="email" id="email" class="form__input" placeholder="Digite seu e-mail" required>
+                        <p class="form__error-message form__email-message"></p>
                     </div>
                     
                     <div class="form__element">
@@ -44,7 +47,8 @@
                         </div>
 
                         <div class="form__password-eye-wrapper">
-                            <input type="password" name="password" id="password" class="form__input" minlength="16" placeholder="Digite sua senha">
+                            <input type="password" name="password" id="password" class="form__input" minlength="16" placeholder="Digite sua senha" required>
+                            <p class="form__error-message form__password-message"></p>
 
                             <img src="assets/eye-off.svg" alt="hide password button" class="eye" onclick="togglePassword()">
                             
@@ -61,17 +65,5 @@
         </div>
     </main>
     <img class="bg" src="./assets/bg.jpg" alt="Background Image">
-
-    <script>
-       function togglePassword() {
-        document
-        .querySelectorAll(".eye")
-        .forEach( (eye) => {
-            eye.classList.toggle("hide")
-        })
-        const input = document.querySelector("#password")
-
-        input.getAttribute("type") == "password" ? input.setAttribute("type", "text") : input.setAttribute("type", "password")
-    </script>
 </body>
 </html>
