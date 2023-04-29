@@ -18,10 +18,14 @@ Rocketseat é uma plataforma de ensino dos mais diversos conceitos de programaç
 
 ## Projetos
 
+Here's the formatted markdown table:
+
+
 | Projeto           | About                                 | Status             | Code                                           | Deploy                                         |
 |-------------------|---------------------------------------|--------------------|------------------------------------------------|------------------------------------------------|
 | DevLinks          | Link Tree                             | :heavy_check_mark: | [Aqui](/Rocketseat-DevLinks/README.md)         | [Link](https://tree-link.netlify.app/)         |
 | Explorer Lab      | Formulário de Preenchimento de Cartão | :heavy_check_mark: | [Aqui](/Rocketseat-ExplorerLab/README.md)      | [Link](https://explorer-lab-olive.vercel.app/) |
 | Maratona Explorer | Cardápio de Cafeteria                 | :heavy_check_mark: | [Aqui](/Rocketseat-MaratonaExplorer/README.md) | [Link](https://cardapiohd.netlify.app/)        |
 | NLW 10            | Calendário da Copa 2022               | :heavy_check_mark: | [Aqui](/Rocketseat-NLW10/README.md)            | [Link](https://nlw10.netlify.app/)             |
-| Desafio #06       | Cartão de Embarque                    | :heavy_check_mark: | [Aqui](/Challenges/CartaoEmbarque)             | [Link](https://boracodar6.netlify.app/)        |                                                                                                         
+| Desafio #06       | Cartão de Embarque                    | :heavy_check_mark: | [Aqui](/Challenges/challenge6/)             | [Link](https://boracodar6.netlify.app/)        |
+| Desafio #11       | Página de Login                       | :heavy_check_mark: | [Aqui](/Challenges/challenge11/)                | [Link](https://boracodar11.netlify.app/)       |

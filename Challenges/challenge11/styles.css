@@ -157,6 +157,7 @@ a:hover, a:active {
     top: 0;
     right: 0;
     display: none;
+    height: 100vh;
 
     background-position: center;
     background-size: cover;
@@ -185,5 +186,6 @@ a:hover, a:active {
 
     .bg {
         display: block;
+        height: 100vh;
     }
 }
