@@ -1,4 +1,4 @@
-# Rocketseat
+# Os projetos neste repositório foram extraídos para repositórios separados!
 
 ![Rocketseat Logo](https://lh3.googleusercontent.com/p/AF1QipOW4mtk5gtvvI26hiTS8U87qv8r3pGwtkpBxn9V=s680-w680-h510)
 

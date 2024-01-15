@@ -1,0 +1,65 @@
+/*GLOBAL*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    font-size: 62.5%;
+    --bg-white: #F8FAFC;
+    --bg-card-white: #FFF;
+    --h4-color: #0F172A;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 1.6rem;
+    background-color: var(--bg-white);
+
+    display: grid;
+    place-content: center;
+
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+}
+
+h4 {
+    font-weight: 600;
+    color: var(--h4-color);
+}
+
+/*CARD*/
+.card {
+    width: 80rem;
+    margin: auto;
+    padding: 64px 80px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--bg-card-white);
+    box-shadow: 0px 4px 32px rgba(15, 23, 42, 0.15);
+    border-radius: 16px;
+}
+
+/*CONVERSOR DE MOEDAS*/
+.currency-exchange__title {
+    margin-top: 1.6rem;
+}
+
+.currency-exchange__form {
+    margin-top: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+/*GRAFICO DE TAXA DE CAMBIO*/
+.exchange-rate__graphic-wrapper {
+    width: 592px;
+    height: 356px;
+    border: 1px solid red;
+}
